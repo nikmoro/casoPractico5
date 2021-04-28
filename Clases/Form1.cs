@@ -6,7 +6,11 @@ namespace Clases
 {
     public partial class Form1 : Form
     {
+        /// <summary>
+        /// Objeto de la clase que hace uso de Newtonsoft y RestSharp
+        /// </summary>
         DBApi dBApi = new DBApi();
+
         public Form1()
         {
             InitializeComponent();

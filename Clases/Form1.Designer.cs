@@ -48,18 +48,18 @@
             this.lblgenre = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.textBoxNombre = new System.Windows.Forms.TextBox();
-            this.textBoxEstado = new System.Windows.Forms.TextBox();
             this.textBoxGenero = new System.Windows.Forms.TextBox();
+            this.textBoxEstado = new System.Windows.Forms.TextBox();
+            this.textBoxNombre = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // btnPrueba
@@ -242,6 +242,15 @@
             this.tabPage1.Text = "Pokémon API";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(350, 86);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(157, 146);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 17;
+            this.pictureBox2.TabStop = false;
+            // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.btnPrueba);
@@ -278,21 +287,12 @@
             this.tabPage3.Text = "Rick y Morty API";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // pictureBox2
+            // textBoxGenero
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(350, 86);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(157, 146);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 17;
-            this.pictureBox2.TabStop = false;
-            // 
-            // textBoxNombre
-            // 
-            this.textBoxNombre.Location = new System.Drawing.Point(123, 88);
-            this.textBoxNombre.Name = "textBoxNombre";
-            this.textBoxNombre.Size = new System.Drawing.Size(100, 20);
-            this.textBoxNombre.TabIndex = 20;
+            this.textBoxGenero.Location = new System.Drawing.Point(123, 152);
+            this.textBoxGenero.Name = "textBoxGenero";
+            this.textBoxGenero.Size = new System.Drawing.Size(100, 20);
+            this.textBoxGenero.TabIndex = 22;
             // 
             // textBoxEstado
             // 
@@ -301,12 +301,12 @@
             this.textBoxEstado.Size = new System.Drawing.Size(100, 20);
             this.textBoxEstado.TabIndex = 21;
             // 
-            // textBoxGenero
+            // textBoxNombre
             // 
-            this.textBoxGenero.Location = new System.Drawing.Point(123, 152);
-            this.textBoxGenero.Name = "textBoxGenero";
-            this.textBoxGenero.Size = new System.Drawing.Size(100, 20);
-            this.textBoxGenero.TabIndex = 22;
+            this.textBoxNombre.Location = new System.Drawing.Point(123, 88);
+            this.textBoxNombre.Name = "textBoxNombre";
+            this.textBoxNombre.Size = new System.Drawing.Size(100, 20);
+            this.textBoxNombre.TabIndex = 20;
             // 
             // Form1
             // 
@@ -323,11 +323,11 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
